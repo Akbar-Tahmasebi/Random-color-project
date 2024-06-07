@@ -1,0 +1,33 @@
+body {
+    font-family: 'cascadia code';
+    
+}
+
+#box {
+    background-color: rgba(59, 59, 59, 0.8);
+    width: 400px;
+    margin: 200px auto 0 auto;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#box input[type="range"] {
+    width: 100%;
+}
+
+#ok {
+    text-align: center;
+}
+
+#ok button {
+    padding: 8px 12px;
+    border: 0;
+    background-color: #dfdfdf;
+    border-radius: 3px;
+}
+
+#ok button:hover {
+    cursor: pointer;
+    background-color: #b1b1b1;
+}
